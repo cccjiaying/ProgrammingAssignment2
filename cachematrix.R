@@ -1,10 +1,10 @@
 ## Matrix inversion is usually a costly computation and there may be some benefit to caching the inverse of a matrix rather than computing it repeatedly.
 
 ## makeCacheMatrix is a list containing a function to 
-1. set the value of the vector
-2. get the value of the vector
-3. set the value of the inverse of the matrix
-4. get the value of the inverse of the matrix
+## 1. set the value of the vector
+## 2. get the value of the vector
+## 3. set the value of the inverse of the matrix
+## 4. get the value of the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
@@ -42,4 +42,3 @@ cacheSolve <- function(x, ...) {
     inv
 
 }
-
